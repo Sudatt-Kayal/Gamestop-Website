@@ -1,0 +1,46 @@
+body {
+	font-family : BatmanForeverAlternate;
+	background-color : #251043;
+}
+
+header {
+	text-align:center;
+	background-color :#4b1da7;
+	color:White;
+}
+
+table,th,td {
+	border : 2px solid black;
+	border-collapse : collapse;
+}
+
+th,td {
+	padding : 10px;
+}
+
+article {
+	background-color : #421b90;
+	font-size : 20px;
+	color : white;
+	padding: 20px;
+	border: black solid 2px;
+}
+
+table#t01 {
+	width : 100%;
+	color : white;
+}
+
+caption {
+	font-size : 30px;
+	background-color : #291158;
+	border: 2px solid black;
+}
+
+table#t01 tr:nth-child(even) {
+	background-color : #371776;
+}
+
+table#t01 tr:nth-child(odd) {
+	background-color : #4b1da7;
+}

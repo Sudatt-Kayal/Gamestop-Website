@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding : 0;
+}
+
+.container {
+  color: white;
+  font-family: BatmanForeverAlternate;
+  background-color: Black;
+}
+
+.header{
+  background-color: DodgerBlue;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.navigation ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222222;
+}
+
+.navigation li{
+  float: left;
+}
+
+.navigation li a{
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+}
+
+.navigation a:hover{
+  background-color: DodgerBlue;
+}
+
+#l01 a{
+  background-color: #040404;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "section1 section2";
+  grid-column-gap: 20px;
+}
+
+.article{
+  background-color: #040404;
+  padding: 30px;
+  line-height: 40px;
+}
+
+.section1 {
+  grid-area: section1;
+  background-color: #272727;
+  padding: 10px;
+}
+
+.section1 ol{
+  margin-left: 40px;
+}
+
+.section1 h2{
+  background-color: DodgerBlue;
+  margin: 0;
+}
+.section2{
+  grid-area: section2;
+  background-color: #272727;
+  padding: 10px;
+}
+
+.section2 h2{
+  background-color: DodgerBlue;
+  margin: 0;
+}
+
+.footer{
+  background-color: #02C82D;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
